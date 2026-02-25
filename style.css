@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4efe6;
+    text-align: center;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    z-index: 1000;
+}
+
+.logo-topo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-logo {
+    width: 90px;
+}
+
+.nome-logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d6a4f;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #40916c;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #95d5b2, #74c69d);
+    color: white;
+    padding: 100px 20px;
+}
+
+.logo-hero {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+button {
+    background-color: white;
+    color: #40916c;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* CARROSSEL */
+.carrossel {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+    border-radius: 12px;
+}
+
+.slide.ativo {
+    display: block;
+}
+
+/* PLANOS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #d8f3dc;
+    padding: 30px;
+    width: 260px;
+    border-radius: 20px;
+} /* RODAPÉ */
+.rodape {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 25px 10px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.rodape p {
+    margin: 5px 0;
+}/* RODAPÉ PROFISSIONAL */
+.rodape {
+    background-color: #1b4332;
+    color: white;
+    padding: 50px 20px 20px;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: left;
+}
+
+.rodape h3,
+.rodape h4 {
+    margin-bottom: 15px;
+}
+
+.rodape a {
+    display: block;
+    color: #d8f3dc;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.rodape a:hover {
+    color: white;
+}
+
+.rodape-copy {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
